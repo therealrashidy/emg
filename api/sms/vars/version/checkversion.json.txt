@@ -1,0 +1,4 @@
+{
+  "latestversion": "v1.0",
+  "minimumversion": "v1.1"
+}
