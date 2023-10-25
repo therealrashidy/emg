@@ -1,0 +1,132 @@
+:root, [data-bs-theme=light] {
+  --bs-primary: #cbb897;
+  --bs-primary-rgb: 203,184,151;
+  --bs-primary-text-emphasis: #514A3C;
+  --bs-primary-bg-subtle: #F5F1EA;
+  --bs-primary-border-subtle: #EAE3D5;
+  --bs-secondary: #cbb897;
+  --bs-secondary-rgb: 203,184,151;
+  --bs-secondary-text-emphasis: #514A3C;
+  --bs-secondary-bg-subtle: #F5F1EA;
+  --bs-secondary-border-subtle: #EAE3D5;
+  --bs-dark: #171717;
+  --bs-dark-rgb: 23,23,23;
+  --bs-dark-text-emphasis: #090909;
+  --bs-dark-bg-subtle: #D1D1D1;
+  --bs-dark-border-subtle: #A2A2A2;
+  --bs-body-color: #fff;
+  --bs-body-color-rgb: 255,255,255;
+  --bs-secondary-color: rgba(255,255,255,0.75);
+  --bs-secondary-color-rgb: 255,255,255,0.75;
+  --bs-tertiary-color: rgba(255,255,255,0.5);
+  --bs-tertiary-color-rgb: 255,255,255,0.5;
+  --bs-body-bg: #171717;
+  --bs-body-bg-rgb: 23,23,23;
+  --bs-body-font-family: Cairo, sans-serif;
+}
+
+.btn-primary {
+  --bs-btn-color: #000000;
+  --bs-btn-bg: #cbb897;
+  --bs-btn-border-color: #cbb897;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #D3C3A7;
+  --bs-btn-hover-border-color: #D0BFA1;
+  --bs-btn-focus-shadow-rgb: 30,28,23;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #D5C6AC;
+  --bs-btn-active-border-color: #D0BFA1;
+  --bs-btn-disabled-color: #000000;
+  --bs-btn-disabled-bg: #cbb897;
+  --bs-btn-disabled-border-color: #cbb897;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #cbb897;
+  --bs-btn-border-color: #cbb897;
+  --bs-btn-focus-shadow-rgb: 203,184,151;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #cbb897;
+  --bs-btn-hover-border-color: #cbb897;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #cbb897;
+  --bs-btn-active-border-color: #cbb897;
+  --bs-btn-disabled-color: #cbb897;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #cbb897;
+}
+
+.btn-secondary {
+  --bs-btn-color: #000000;
+  --bs-btn-bg: #cbb897;
+  --bs-btn-border-color: #cbb897;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #D3C3A7;
+  --bs-btn-hover-border-color: #D0BFA1;
+  --bs-btn-focus-shadow-rgb: 30,28,23;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #D5C6AC;
+  --bs-btn-active-border-color: #D0BFA1;
+  --bs-btn-disabled-color: #000000;
+  --bs-btn-disabled-bg: #cbb897;
+  --bs-btn-disabled-border-color: #cbb897;
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: #cbb897;
+  --bs-btn-border-color: #cbb897;
+  --bs-btn-focus-shadow-rgb: 203,184,151;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #cbb897;
+  --bs-btn-hover-border-color: #cbb897;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #cbb897;
+  --bs-btn-active-border-color: #cbb897;
+  --bs-btn-disabled-color: #cbb897;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #cbb897;
+}
+
+.btn-dark {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #171717;
+  --bs-btn-border-color: #171717;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #141414;
+  --bs-btn-hover-border-color: #121212;
+  --bs-btn-focus-shadow-rgb: 220,220,220;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #121212;
+  --bs-btn-active-border-color: #111111;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #171717;
+  --bs-btn-disabled-border-color: #171717;
+}
+
+.btn-outline-dark {
+  --bs-btn-color: #171717;
+  --bs-btn-border-color: #171717;
+  --bs-btn-focus-shadow-rgb: 23,23,23;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #171717;
+  --bs-btn-hover-border-color: #171717;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #171717;
+  --bs-btn-active-border-color: #171717;
+  --bs-btn-disabled-color: #171717;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #171717;
+}
+
+[data-bs-theme=dark] {
+  --bs-body-color: #ffffff;
+  --bs-body-color-rgb: 255,255,255;
+  --bs-secondary-color: rgba(255,255,255,0.75);
+  --bs-secondary-color-rgb: 255,255,255,0.75;
+  --bs-tertiary-color: rgba(255,255,255,0.5);
+  --bs-tertiary-color-rgb: 255,255,255,0.5;
+  --bs-body-bg: #171717;
+  --bs-body-bg-rgb: 23,23,23;
+  --bs-body-font-family: Cairo, sans-serif;
+}
+
