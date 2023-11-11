@@ -14,13 +14,14 @@
     <link rel="stylesheet" href="assets/css/Hero-Carousel-images.css">
     <link rel="stylesheet" href="assets/css/Navbar-Centered-Links-icons.css">
     <!-- PushAlert -->
-<script type="text/javascript">
-    (function(d, t) {
-            var g = d.createElement(t),
-            s = d.getElementsByTagName(t)[0];
-            g.src = "https://cdn.pushalert.co/integrate_9fade62212a8539068bdb7c3c7f92f1d.js";
-            s.parentNode.insertBefore(g, s);
-    }(document, "script"));
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(function(OneSignal) {
+    OneSignal.init({
+      appId: "0c54305c-65bb-40f0-9e83-1be2daf1205c",
+    });
+  });
 </script>
 <!-- End PushAlert -->
 </head>
